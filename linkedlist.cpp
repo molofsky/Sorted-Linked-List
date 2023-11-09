@@ -31,7 +31,7 @@ void insert(List* list, int val) {
   prev->next = n;
 }
 
-void delete(List* list, int val) {
+void deleteNode(List* list, int val) {
   Node* prev = list->head;
   Node* cur = list->head->next;
 
